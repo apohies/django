@@ -14,3 +14,17 @@ class UserDTO:
         self.nombre = nombre
         self.apellido = apellido
         self.correo = correo
+
+class Subjet:
+  def __init__(self, name, code):
+    self.name = name
+    self.code = code  
+
+
+class User:
+    def __init__(self,_id,username,email,password ):
+        self._id = _id
+        self.username = username
+        self.email = email
+        self.password = password
+        
